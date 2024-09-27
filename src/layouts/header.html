@@ -1,0 +1,29 @@
+<!-- Start header -->
+<header class="header-container">
+    <!-- Start header top -->
+    <div class="header-top">
+        <div class="header-top__logo">
+            <figure class="header-top__logo-item">
+                <div class="logo"></div>
+                <figcaption>Digital <span>Agency</span></figcaption>
+            </figure>
+        </div>
+        <nav class="header-top__nav-container">
+            <ul>
+                <include src="./components/navList.html" locals='{
+                    "list":["Ana Sayfa", "Kurumsal", "Neler Yapıyoruz?","Blog"],
+                    "classLink":"nav__item-link",
+                    "classList":"nav__item"
+                }'>
+                </include>
+            </ul>
+        </nav>
+        <div class="header-top__button">
+            <span>EN</span>
+            <include src="./components/button.html" locals='{
+                "list":["Müşteri Girişi"]
+            }'>
+            </include>
+        </div>
+    </div>
+</header>
