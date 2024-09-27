@@ -4,14 +4,17 @@
     font-family: PoppinsBold;
     src: url(../assets/fonts/Poppins-Bold.ttf) format("truetype");
 }
+
 @font-face {
     font-family: PoppinsRegular;
     src: url(../assets/fonts/Poppins-Regular.ttf) format("truetype");
 }
+
 @font-face {
     font-family: PoppinsMedium;
     src: url(../assets/fonts/Poppins-Medium.ttf) format("truetype");
 }
+
 body {
     font-size: $primary-font;
     font-weight: 500;
