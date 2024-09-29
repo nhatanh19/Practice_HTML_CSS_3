@@ -6,7 +6,7 @@
 
 ## TIMELINE:
 
--  3 Week (September 23 - October 6)
+-  20 days (September 23 - October 11)
 
 ## TARGET:
 
