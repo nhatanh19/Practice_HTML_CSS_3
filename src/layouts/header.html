@@ -1,0 +1,45 @@
+<!-- Start header -->
+<header class="header-container">
+    <!-- Start header top -->
+    <div class="header-top">
+        <div class="header-top__logo">
+            <figure class="header-top__logo-item">
+                <div class="logo"></div>
+                <figcaption>Digital <span>Agency</span></figcaption>
+            </figure>
+        </div>
+        <nav class="header-top__nav-container">
+            <ul>
+                <include src="./components/navList.html" locals='{
+                    "list":["Ana Sayfa", "Kurumsal", "Neler Yapıyoruz?","Blog"],
+                    "classLink":"nav__item-link",
+                    "classList":"nav__item"
+                }'>
+                </include>
+            </ul>
+        </nav>
+        <div class="header-top__button">
+            <span>EN</span>
+            <include src="./components/button.html" locals='{
+                "list":["Müşteri Girişi"]
+            }'>
+            </include>
+        </div>
+    </div>
+    <!-- Start header title main -->
+    <div class="header-title">
+        <div class="header-title--main">
+            <h1 class="header__h1--title">
+                İşinize uygun <span>tasarım</span> ve <span>yazılımlar</span>
+            </h1>
+            <p class="header__title--value">
+                360° dijital marka danışmanlığı, web tasarım ve reklam ajansıdır. İşletmelerin ihtiyaçlarına uygun web
+                tasarım ve web yazılım hizmetleri sunmaktayız.
+            </p>
+            <include src="./components/button.html" locals='{
+                "list":["Detaylı İncele"]
+            }'>
+            </include>
+        </div>
+    </div>
+</header>
