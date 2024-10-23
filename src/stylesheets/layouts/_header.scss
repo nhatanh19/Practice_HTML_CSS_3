@@ -13,7 +13,7 @@
         padding: 0 pxToRem(120);
 
         // logo
-        .header-top__logo {
+        &__logo {
             .header-top__logo-item {
                 display: flex;
                 align-items: center;
@@ -34,14 +34,14 @@
         }
 
         // nav header top
-        .header-top__nav-container {
+        &__nav-container {
             ul {
                 display: flex;
                 column-gap: pxToRem(40);
             }
         }
 
-        .header-top__button {
+        &__button {
             span {
                 padding-right: 20px;
                 font-size: 1rem;
@@ -89,7 +89,7 @@
         display: flex;
         justify-content: center;
 
-        .header__box--main {
+        &--main {
             width: 77.5%;
             position: relative;
 
