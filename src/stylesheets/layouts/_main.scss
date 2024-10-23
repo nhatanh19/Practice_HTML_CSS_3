@@ -1,0 +1,27 @@
+@use "../abstracts/" as *;
+
+main {
+    background-color: white;
+
+    .OurWorkflow {
+        &__text {
+            text-align: center;
+            width: 710px;
+
+            span {
+                color: $color-main;
+            }
+
+            title {
+                font-size: 32px;
+            }
+        }
+
+        &__list {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+
+}
