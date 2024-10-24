@@ -1,0 +1,19 @@
+@use "../abstracts/" as *;
+
+.btn {
+    width: pxToRem(145);
+    height: pxToRem(46);
+    background-color: $color-main;
+    border-radius: 50px;
+    border-color: $color-main;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+
+    &__content {
+        color: white;
+        font-size: 1rem;
+    }
+}
