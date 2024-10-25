@@ -4,10 +4,6 @@
     width: 344px;
     height: 169px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     img {
         width: 64px;
@@ -19,6 +15,8 @@
         width: 230px;
         font-size: 20px;
         font-weight: 600;
+        display: block;
+        margin: 21px auto 10px auto;
     }
 
     p {

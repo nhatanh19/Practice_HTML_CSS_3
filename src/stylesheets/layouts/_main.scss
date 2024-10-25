@@ -2,11 +2,17 @@
 
 main {
     background-color: white;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     .OurWorkflow {
+
         &__text {
             text-align: center;
             width: 710px;
+            margin: 0 auto;
 
             span {
                 color: $color-main;
@@ -14,14 +20,96 @@ main {
 
             title {
                 font-size: 32px;
+                display: block;
+                font-weight: 600;
+                padding: 20px 0;
             }
         }
 
         &__list {
             display: flex;
             justify-content: space-between;
+            margin: 60px auto;
         }
     }
 
+    .Preferential {
+        margin: 60px auto;
+        width: 100%;
+        height: 435px;
+        background-color: rgba(22, 93, 245, 0.1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
+        &__box {
+            width: 761px;
+            height: 295px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &--title {
+                display: block;
+                width: 100%;
+                font-size: 50px;
+                font-weight: 600;
+            }
+
+            &--button {
+                .btn {
+                    width: 226px;
+                }
+            }
+        }
+    }
+
+    .Work {
+        width: 710px;
+        height: 160px;
+        margin: 60px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+        &__question {
+            span {
+                color: $color-main;
+            }
+        }
+
+        &__title {
+            display: block;
+            width: 410px;
+            font-size: 32px;
+            font-weight: 500;
+        }
+    }
+
+    .Review-work {
+        width: 100%;
+        height: 697px;
+        margin-right: 118px;
+        display: flex;
+        justify-content: space-between;
+
+        &__image {
+            width: 666px;
+            height: 100%;
+        }
+
+        &__box-text {
+            width: 565px;
+            height: 100%;
+
+            &--title {
+                display: block;
+                font-size: 36px;
+                font-weight: 500;
+            }
+        }
+    }
 }
