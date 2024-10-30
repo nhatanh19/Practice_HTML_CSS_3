@@ -117,14 +117,67 @@
             <p>Alanında uzman yazar arkadaşlarımızın, bilgi paylaşımı yaptıkları yazıları inceleyelim.</p>
         </div>
         <div class="Share-posts__nav">
-            <!-- include components nav button -->
+            <ul class="navTitle">
+                <include src="./components/navList.html" locals='{
+                    "list":["Hepsini Gör", "Web Tasarım", "Kurumsal Kimlik Tasarımı","SEO","Dijital Pazarlama" ],
+                    "classList":"navTitle--box",
+                    "classLink":"nav-link"
+                }'>
+
+                </include>
+            </ul>
         </div>
-        <!-- <div class="Share-posts__page">
-            <include src="../components/navList.html" locals='{
-                "list":["Hepsini Gör", "Web Tasarım", "Kurumsal Kimlik Tasarımı","SEO","Dijital Pazarlama" ],
+        <div class="Share-posts__page">
+            <include src="./components/navPosts.html" locals='{
+                "list": [{
+                    "image": "box-4-laptop.png",
+                    "category":"Dijital Pazarlama",
+                    "title":"Sosyal CRM Nedir? Sosyal CRM Avantajları Nelerdir?",
+                    "text":"Sosyal CRM, işletmelerin müşteri ilişkileri yönetimi (CRM) stratejilerini sosyal...",
+                    "link":"Devamını Oku"
+                },
+                {
+                    "image": "box-4-PR.png",
+                    "category":"Dijital Pazarlama",
+                    "title":"Dijital PR Nedir? Dijital PR Neden Gereklidir?",
+                    "text":"Dijital PR, sosyal medya platformları ve web siteleri üzerinden işletmelerin...",
+                    "link":"Devamını Oku"
+                },
+                {
+                    "image": "box-4-house.png",
+                    "category":"Kurumsal Kimlik Tasarımı",
+                    "title":"Dijital Ajans Nedir? Doğru Dijital Ajans Nasıl Seçilir?",
+                    "text":"Bir dijital ajans arama motorları, e ticaret, web sitesi tasarımı gibi birçok alanda hizmet...",
+                    "link":"Devamını Oku"
+                },
+                {
+                    "image": "box-4-phao.png",
+                    "category":"Dijital Pazarlama",
+                    "title":"Online İtibar Yönetimi Nedir?",
+                    "text":"Online itibar yönetimi, markanızla dijital dünyada ortaya çıkan algıyı profesyonel şekilde yönetmek...",
+                    "link":"Devamını Oku"
+                }]
             }'>
 
             </include>
-        </div> -->
+            <img class="Share-posts__page--next" src="../assets/icon/next-box.svg" alt="">
+        </div>
+    </div>
+    <div class="Feedback">
+        <title class="Feedback__title">
+            Memnuniyetini bildiren müşterilerimiz
+        </title>
+        <div class="Feedback__list">
+            <include src="./components/boxFeedback.html" locals='{
+                "list":[{
+                    "avatar":"avatar.png",
+                    "name":"Jane Cooper",
+                    "company":"The Walt Disney Company",
+                    "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac amet feugiat donec sit morbi tristique massa enim. Consequat odio adipiscing est odio nibh. Nec scelerisque hendrerit in eu purus faucibus quam. Quis commodo tortor aliquam tortor"
+                }]
+            }'>
+
+            </include>
+        </div>
     </div>
 </main>
