@@ -18,8 +18,13 @@
 body {
     font-family: $primary-font;
     font-weight: 500;
-    font-size: pxToRem(14);
+    font-size: pxToRem(16);
     max-width: 1800px;
     margin: 0 auto;
     min-width: 320px;
+
+    p {
+        line-height: 26px;
+        color: rgba(0, 0, 0, 0.4);
+    }
 }
