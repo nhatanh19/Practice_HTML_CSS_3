@@ -1,0 +1,25 @@
+.boxFeedback {
+    width: 587px;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    &__avatar {
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+    }
+
+    &__name {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+
+    &__company {
+        color: rgba(0, 0, 0, 0.6);
+    }
+}

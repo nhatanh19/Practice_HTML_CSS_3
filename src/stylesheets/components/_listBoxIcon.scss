@@ -1,0 +1,25 @@
+@use "../abstracts/" as *;
+
+.listBox-icon {
+    width: 344px;
+    height: 169px;
+    text-align: center;
+
+    img {
+        width: 64px;
+        height: 64px;
+        border-radius: 0.5px;
+    }
+
+    title {
+        width: 230px;
+        font-size: 20px;
+        font-weight: 600;
+        display: block;
+        margin: 21px auto 10px auto;
+    }
+
+    p {
+        width: 100%;
+    }
+}
