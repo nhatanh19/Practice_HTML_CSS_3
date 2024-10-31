@@ -1,0 +1,20 @@
+@use "../abstracts/" as *;
+
+footer {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(22, 93, 245, 1);
+    padding: 0 75px;
+
+    a,
+    p {
+        color: white !important;
+    }
+
+    .navList {
+        display: flex;
+        gap: 32px;
+    }
+}
