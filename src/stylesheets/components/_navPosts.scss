@@ -1,0 +1,38 @@
+@use "../abstracts/" as *;
+
+.Post {
+    width: 282px;
+    height: 420px;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    &__image {
+        width: 100%;
+        border-radius: 8px 0;
+    }
+
+    &__text {
+        margin: 0 auto;
+        width: 248px;
+
+        span {
+            color: $color-main;
+        }
+
+        title {
+            display: block;
+            font-size: 19px;
+            font-weight: 600;
+            margin: 13px 0;
+        }
+    }
+
+    &__link {
+        margin-left: auto;
+        padding: 16px 17px;
+    }
+}
