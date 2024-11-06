@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 @use "../abstracts/" as *;
 .header {
     width: 100%;
@@ -72,6 +71,7 @@
     &__title {
         width: 100%;
         height: 500px;
+
         // set bg header
         background-image: linear-gradient(0, white, rgba(204, 204, 216, 0.868)), url(./../assets/img/backgroud.png);
         background-repeat: no-repeat;
@@ -97,6 +97,7 @@
                     font-size: 48px;
                     line-height: 61.5px;
                 }
+
                 span {
                     color: $color-main;
                 }
@@ -165,4 +166,4 @@
         }
     }
 }
->>>>>>> Stashed changes
+

@@ -1,0 +1,15 @@
+<each loop="item in {{list}}">
+    <div class="boxFeedback">
+        <img src="../assets/img/{{item.avatar}}" alt="" class="boxFeedback__avatar">
+        <title class="boxFeedback__name">
+            {{item.name}}
+        </title>
+        <span class="boxFeedback__company">
+            {{item.company}}
+        </span>
+        <p class="boxFeedback__review">
+            {{item.review}}
+        </p>
+        <img src="../assets/icon/list-5-star.svg" alt="">
+    </div>
+</each>

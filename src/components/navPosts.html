@@ -1,0 +1,11 @@
+<each loop="item in {{list}}">
+    <div class="Post">
+        <img src="../assets/img/{{item.image}}" alt="" class="Post__image">
+        <div class="Post__text">
+            <span>{{item.category}}</span>
+            <title>{{item.title}}</title>
+            <p>{{item.text}}</p>
+        </div>
+        <a href="#" class="Post__link">{{item.link}}</a>
+    </div>
+</each>
