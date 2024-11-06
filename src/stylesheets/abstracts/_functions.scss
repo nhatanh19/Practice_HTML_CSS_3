@@ -1,6 +1,11 @@
 @use "sass:math";
+@use "./variables" as *;
 
 // px-to-rem
 @function pxToRem($px, $rem: 16) {
   @return math.div($px, $rem) * 1rem;
+}
+
+@function pxToTablet($px, $max_width : $tablet) {
+  @return math.div($px, $max_width) * 100%;
 }
